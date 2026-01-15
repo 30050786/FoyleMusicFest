@@ -1,0 +1,170 @@
+body {
+    font-family: Verdana;
+    background: #3F5EFB;
+    background: radial-gradient(circle,rgb(255, 199, 116) 0%, rgb(240, 64, 160) 100%);
+    color: #222;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0 0 13px;
+    font-family: verdana;
+}
+
+.section {
+    margin: 16px 0 24px;
+}
+.media img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.site-footer {
+    padding: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.nav {
+    margin: 0;
+    padding: 12px 16px 16px;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    background-color: #530753;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #fffeff;
+}
+
+.form,
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+
+button,
+.btn {
+  background: #164a7a;
+  color: #fff;
+  border: 1px solid #123c62;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover,
+button:hover {
+  background: #123c62;
+}
+
+.btn.btn-secondary {
+  background: #fff;
+  color: #164a7a;
+  border-color: #ddd;
+}
+
+.btn.btn-secondary:hover {
+  background: #f3f3f3;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.card{
+  background: #d1d1d1;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.circle-border {
+  border-radius: 30%;
+}
+
+.audio-sample {
+  width: 250px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background: #3F5EFB;
+    background: linear-gradient(90deg,rgb(216, 16, 16) 0%, rgb(148, 40, 236) 100%);
+  padding: 20px;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 450px;
+  height: 450px;
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
